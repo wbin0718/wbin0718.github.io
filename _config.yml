@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "성장을 목표로 끊임없이 배우고 있습니다."
   location         : "Seoul"
-  email            :
+  email            : "wbbin0718@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
