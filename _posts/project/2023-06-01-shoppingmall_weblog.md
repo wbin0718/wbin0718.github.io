@@ -28,7 +28,7 @@ toc_sticky: true
 
 버킷을 생성하면 아래와 같이 생성한 버킷을 관리할 수 있는 페이지가 나오게 됩니다. 여기서 원하는 데이터를 업로드 해주면 끝!!
 
-![image](../images/bucket.png)
+![bucket](https://github.com/wbin0718/shoppingmall_weblog/assets/104637982/7ac7bd1c-e90e-49b7-8fe1-9188e9c366fc)
 
 ## 구글 빅쿼리 연동
 
@@ -36,11 +36,12 @@ toc_sticky: true
 
 구글 스토리지로부터 데이터를 불러오고 설정할 때 자동으로 스키마 생성을 체크 해 주면 아래와 같이 알아서 테이블을 만들어 줍니다.
 
-![image](../images/big_query.png)
+![big_query](https://github.com/wbin0718/shoppingmall_weblog/assets/104637982/1edf0d65-2c8b-45ca-bd68-17f29fc3a41a)
 
 쿼리를 작성해서 데이터가 잘 들어왔나 확인 해 보겠습니다.   
 SELECT 문을 작성하니 데이터가 잘들어온 것으로 보입니다.
-![image](../images/query.png)
+
+![query](https://github.com/wbin0718/shoppingmall_weblog/assets/104637982/240f6666-9a50-4452-b5ca-433fc635da4d)
 
 
 
