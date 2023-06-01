@@ -20,7 +20,6 @@ toc_sticky: true
 
 위 쿼리문을 작성할 때 DAU를 구하기 위해서는 event_time 컬럼을 활용해서 DAY를 추출해야 합니다.   
 빅쿼리는 `EXTRACT` 함수를 사용하면 원하는 YEAR, MONTH, DAY를 추출할 수 있습니다. DAY를 추출하고 DAY로 그룹화를 하여 user_id를 통해 DAU를 구했습니다.
-여기서 user_id 를 셀 때 `DISTINCT` 중복을 제거하지 않은 이유는 DAU 정의가 중복된 고객의 수도 포함하는 것이어서 그렇습니다!
 
 ![Untitled](https://github.com/wbin0718/shoppingmall_weblog/assets/104637982/463570b3-cae1-45a3-92e4-73ffed3fb7e1)
 
