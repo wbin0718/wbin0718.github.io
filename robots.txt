@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wbin0718.github.io/sitemap.xml
