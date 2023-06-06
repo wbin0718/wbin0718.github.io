@@ -1,5 +1,5 @@
 ---
-title: "[데이터 분석] e-commerce 데이터 분석"
+title: "[데이터 분석] e-commerce 데이터 분석-1"
 excerpt: 브라질 기업 olist 데이터를 활용해 데이터 분석을 진행 해 보자!
 categories:
   - project
