@@ -40,7 +40,7 @@ google이 제공하는 데모 계정의 데이터는 page_view, view_item, first
 이번은 각 이벤트마다 수익이 얼마인지 확인하는 총수익 지표입니다.   
 물론 구매 이벤트만 총수익이 있을 것이라고 생각하지만 광고같은 것으로부터도 수익이 있을 수도 있습니다.   
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/0cc7baad-d876-4b9d-923b-81ed29e8e8de)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/eacca423-877f-4a6d-b0fa-1b263f520612)
 
 분석한 데이터는 구매 이벤트만 수익이 있습니다. 대략 한국 돈으로 2억 가까이 되는 가치 입니다!   
 
