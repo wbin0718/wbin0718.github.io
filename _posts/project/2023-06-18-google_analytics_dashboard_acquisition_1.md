@@ -24,22 +24,23 @@ toc_sticky: true
 <br>
 이처럼 사용자는 여러 유입 경로를 통해 웹, 앱을 접속하게 됩니다. 이러한 유입 경로를 통해 유입 경로별 분석을 진행하고, 상황에 맞는 UI를 구성할 수 있을 것입니다.   
 <br>
-사용자 획득 보고서 지표를 직접 데이터를 추출하여 살펴보겠습니다.
+사용자 획득 보고서 지표를 직접 데이터를 추출하여 살펴보겠습니다.   
+특히 획득 보고서는 사용자 획득, 트래픽 획득으로 나뉘어져 있는데, 사용자 획득은 새로운 사용자 즉 first_event를 기준으로 집계가 되며 트래픽 획득은 session_start를 기준으로 집계가 됩니다.
 
 ## 새사용자
 
 새사용자 지표는 신규로 유입된 고객이 어떤 경로를 통해 접속하는지 살펴보기 위한 지표 입니다. 구글 merchandise store 2020년 11월 10일 ~ 2020년 12월 06일 데이터를 추출하여 살펴보겠습니다.
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/30413cbd-d555-400e-9cb9-37a5e22d7317)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/6ccb313b-6aee-48e1-af26-e0cca135f977)
 
-대략 한달동안 5~6만명의 신규 고객이 유입되었습니다. 가장 많은 신규 고객이 유입된 소스/매체는 무엇일까요? 24441명으로 구글 무료 검색 엔진을 통해 가장 많은 신규 고객이 유입되었습니다. 그 다음은 16541명으로 direct 입니다.
+대략 한달동안 5~6만명의 신규 고객이 유입되었습니다. 가장 많은 신규 고객이 유입된 소스/매체는 무엇일까요? 26937명으로 구글 무료 검색 엔진을 통해 가장 많은 신규 고객이 유입되었습니다. 그 다음은 19504명으로 direct 입니다.
 
 ## 참여 세션수
 
 다음은 참여 세션수입니다. 이때 참여란 무엇일까요?   
 구글 애널리틱스는 두 번의 페이지 뷰, 1번의 전환, 10초이상 머물렀을 때 참여했다고 정의합니다. 참여를 측정하는 이유는 고객이 단순히 사이트를 방문하기만 하는 것은 의미가 없기 때문입니다. 방문 뿐만 아니라 사이트와 상호작용이 이루어졌는지를 확인하기 위한 지표입니다.     
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/3d8799fc-4dd7-4f85-81da-f2abec8e0295)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/2aa25935-ed72-4747-a87e-f9236851748a)
 
 새사용자와 마찬가지로 google 무료 검색 엔진을 통해 접속한 고객들이 가장 많은 참여를 한 것을 볼 수가 있습니다.
 
@@ -47,40 +48,40 @@ toc_sticky: true
 
 다음은 참여율인데요. 참여율은 참여 세션수를 세션수로 나눈 것을 정의합니다. 이를 통해 전체 세션 대비 참여 세션이 얼마나 되는지 확인을 할 수가 있는 것입니다.
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/24ed13c9-aa30-438a-ad88-0426a183e25d)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/fc1b20b9-74b8-4115-833e-431c4c31c774)
 
-위 결과와 달리 google cpc를 통해 유입된 고객의 참여율이 가장 높습니다. google 무료 검색을 통해 접속한 고객들은 3위로 87.78%의 참여율을 보여줍니다.
+위 결과와 달리 google cpc를 통해 유입된 고객의 참여율이 가장 높습니다. google 무료 검색을 통해 접속한 고객들은 4위로 91.02%의 참여율을 보여줍니다.
 
 ## 사용자당 참여 세션수
 
 다음은 사용자당 참여 세션수입니다.
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/c371226d-c6d2-426a-a8c2-4f03f0cef0e7)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/12ad096c-5c7f-4655-bb0d-b7b0fc852f40)
 
-1위를 제외하고는 평균적으로 한 사용자당 1번의 세션을 보이고 있습니다.
+새 사용자는 많은데, 참여 세션이 사용자 수보다 적습니다. 개인 깃허브 블로그로 정합성을 맞춰봤을 때는 맞았는데, 조금 이상해서 추후 다시 살펴봐야 할 것 같습니다.
 
 ## 평균 참여 시간
 
 평균 참여 시간은 사용자가 접속해서 사이트와 얼마나 긴 시간동안 상호작용을 하는지 확인할 수 있는 지표입니다.
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/52c0d274-3bcf-41d1-ac78-a44570fbd34c)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/31fcef05-f30c-476d-b5c8-acbb5442c8f3)
 
-사이트의 홈페이지를 통해 유입된 고객들은 1분 40초의 참여 시간을 보여주고 있습니다.
+사이트의 홈페이지를 통해 유입된 고객들은 1분 20초의 참여 시간을 보여주고 있습니다.
 
 ## 이벤트수
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/78499e87-55a4-45d9-8986-0f0540c4c8ba)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/10479ed2-a599-454c-93ff-ec278a03a0dd)
 
-구글 무료 검색 엔진을 통해 접속한 고객은 총 448616번의 이벤트를 발생시켰습니다.
+구글 무료 검색 엔진을 통해 접속한 고객은 총 396733번의 이벤트를 발생시켰습니다.
 
 ## 전환
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/01903a59-bf3d-4ead-80b1-be27071c8513)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/2a861df1-7d61-4afe-b381-5624804302f9)
 
-448616번 중 77749의 전환 이벤트가 발생했습니다.
+396733번 중 70502의 전환 이벤트가 발생했습니다.
 
 ## 총수익
 
-![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/1d161c62-a616-4732-bc59-adb83ba8a70c)
+![image](https://github.com/wbin0718/google_analytics_dashboard/assets/104637982/ce1c2c88-e6ae-4ebe-ac07-8393883853d8)
 
 구글 무료 검색 엔진을 통해 접속한 고객들로 부터 가장 많은 수익이 난 것을 알 수가 있습니다.
