@@ -1,5 +1,5 @@
 ---
-title: "태블로를 활용한 구글 애널리틱스 보고서-4"
+title: "[이벤트] 구글 애널리틱스 보고서"
 excerpt: 구글 데모 데이터인 merchandise store의 데이터를 빅쿼리를 가지고 데이터를 추출하고 태블로를 활용 해 구글 애널리틱스 보고서를 만드는 프로젝트
 categories:
   - project
