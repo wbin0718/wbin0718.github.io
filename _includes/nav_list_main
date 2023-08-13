@@ -62,10 +62,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "growth" %}
-                        <li><a href="/categories/growth" class="">그로스 해킹({{category[1].size}})</a></li>
+                    {% if category[0] == "GA4" %}
+                        <li><a href="/categories/ga4" class="">project({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
