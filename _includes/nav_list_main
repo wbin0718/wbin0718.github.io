@@ -65,8 +65,8 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "GA4" %}
-                        <li><a href="/categories/ga4" class="">project({{category[1].size}})</a></li>
+                    {% if category[0] == "ga4" %}
+                        <li><a href="/categories/ga4" class="">GA4({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
